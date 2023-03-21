@@ -1,0 +1,128 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+    height: auto;
+    width: auto;
+}
+header::before{
+    background: url('buildings2.jpeg')no-repeat center center;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.65;
+}
+.left{
+    top: 18px;
+    position: absolute;
+    left: 34px;
+    display: inline-block;
+    border: 2px solid green;
+}
+.left img{
+   
+    width: 120px;
+    filter : invert(100%);
+}
+.left div{
+    font-size: 14px;
+    text-align: center;
+}
+
+.mid{
+    top: 20px;
+    display: block;
+    width: 45%;
+    margin: 12px auto;
+    border: 2px solid red;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    display: inline-block;
+    border: 2px solid yellow;
+} 
+.btn{
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 9px;
+    color: black;
+    padding: 4px 14px;
+    border : 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: beige;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    font-size: 25px;
+    display: inline-block;
+}
+.navbar li a{
+    color : black;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color : grey;
+    background-color: rgb(113, 144, 132);
+    
+}
+.container{
+    border: 2px solid green;
+    margin: 100px auto;
+    padding: 150px;
+    width: 25%;
+    border-radius: 28px;
+    
+}
+
+.king{
+    width: 100%;
+    border: 2px solid red;
+
+}
+.container h1{
+    display: block;
+
+    color : white;
+    width: 60;
+
+}
+.form-group input{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border : 2px solid black;
+    margin: 0px auto;
+    
+    font-size: 25px;
+    border-radius: 8px;
+}
+.btno{
+    font-family: 'Raleway', sans-serif;
+    margin: 20px 135px;
+    color: black;
+    padding: 2px 14px;
+    border : 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    width: 100px;
+    height: 40px;
+}
+.form-group{
+    margin: 00px, 100px;
+}
